@@ -129,33 +129,38 @@ Use git pull --rebase instead of regular pull
 Avoid rebasing after pushing to remote
 
 
-Branching Strategies in Companies
-1. Git Flow
-text
+
+# Branching Strategies in Companies
+
+## 1. Git Flow
 main ────┐
-        │
+│
 develop ─┼─────┬── feature/login
-        │     └── feature/payment
-        │
-        └───── release/1.2.0
-               │
-               └── hotfix/critical-bug
-Pros: Structured, good for versioned releases
-Cons: Complex, many long-lived branches
+│ └── feature/payment
+│
+└───── release/1.2.0
+│
+└── hotfix/critical-bug
 
-2. GitHub Flow
 text
+
+**Pros:** Structured, good for versioned releases  
+**Cons:** Complex, many long-lived branches
+
+## 2. GitHub Flow
 main ───┬── feature/auth
-        ├── feature/ui-update
-        └── hotfix/security-patch
-Pros: Simple, fast, CI/CD friendly
-Cons: Less structure for versioning
+├── feature/ui-update
+└── hotfix/security-patch
 
-3. Trunk-Based Development
 text
+
+**Pros:** Simple, fast, CI/CD friendly  
+**Cons:** Less structure for versioning
+
+## 3. Trunk-Based Development
 main ───┬── short-lived-feature (1-2 days)
-        ├── another-short-feature
-        └── hotfix
+├── another-short-feature
+└── hotfix
 Pros: Enables continuous delivery, reduces merge conflicts
 Cons: Requires strong testing culture
 
