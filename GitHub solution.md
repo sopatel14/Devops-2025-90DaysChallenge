@@ -132,37 +132,68 @@ Avoid rebasing after pushing to remote
 
 # Branching Strategies in Companies
 
-## 1. Git Flow
-main ────┐
-│
-develop ─┼─────┬── feature/login
-│ └── feature/payment
-│
-└───── release/1.2.0
-│
-└── hotfix/critical-bug
+1️⃣ Git Flow
+main ────┬── develop ───┬── feature/login ───┬── feature/payment ───┬── release/1.2.0 ───┬── hotfix/critical-bug
+          │
+          └───────────── versioned releases
 
-text
 
-**Pros:** Structured, good for versioned releases  
-**Cons:** Complex, many long-lived branches
+Description:
+A well-structured branching model designed for projects that require versioned releases and parallel development.
 
-## 2. GitHub Flow
-main ───┬── feature/auth
-├── feature/ui-update
-└── hotfix/security-patch
+Pros:
 
-text
+Structured and organized workflow
 
-**Pros:** Simple, fast, CI/CD friendly  
-**Cons:** Less structure for versioning
+Good for versioned releases and enterprise environments
 
-## 3. Trunk-Based Development
-main ───┬── short-lived-feature (1-2 days)
-├── another-short-feature
-└── hotfix
-Pros: Enables continuous delivery, reduces merge conflicts
-Cons: Requires strong testing culture
+Cons:
+
+Complex setup
+
+Long-lived branches can cause delayed merges
+
+2️⃣ GitHub Flow
+main ────┬── feature/auth ───┬── feature/ui-update ───┬── hotfix/security-patch
+
+
+Description:
+A lightweight workflow used by most modern teams, especially with continuous integration and deployment (CI/CD).
+
+Pros:
+
+Simple and fast
+
+Ideal for CI/CD pipelines
+
+Easy to collaborate via pull requests
+
+Cons:
+
+Less structure for versioning
+
+Not ideal for large release cycles
+
+3️⃣ Trunk-Based Development
+main ────┬── short-lived-feature (1-2 days) ───┬── another-short-feature ───┬── hotfix
+
+
+Description:
+Developers commit small, frequent updates directly to the main branch or via short-lived branches.
+
+Pros:
+
+Enables continuous delivery
+
+Reduces merge conflicts
+
+Encourages collaboration and fast feedback
+
+Cons:
+
+Requires strong testing culture
+
+Demands discipline in integration
 
 
 
