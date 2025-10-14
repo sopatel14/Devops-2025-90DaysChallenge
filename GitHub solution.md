@@ -195,6 +195,12 @@ Requires strong testing culture
 
 Demands discipline in integration
 
+| Strategy        | Best For                     | Pros                 | Cons                         |
+| --------------- | ---------------------------- | -------------------- | ---------------------------- |
+| **Git Flow**    | Large projects with releases | Structured, stable   | Complex, long-lived branches |
+| **GitHub Flow** | CI/CD and agile teams        | Simple, fast         | Less versioning structure    |
+| **Trunk-Based** | Continuous delivery          | Frequent integration | Needs strong testing         |
+
 
 
 
