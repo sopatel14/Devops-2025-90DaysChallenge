@@ -1,3 +1,4 @@
+
 # DevOps 2025 - 90 Days Challenge 🚀
 
 A structured 90-day journey learning DevOps tools and practices, week by week.
@@ -32,3 +33,8 @@ Navigate to each week's folder for detailed content and exercises.
 ---
 **Maintained by**: sopatel14  
 **Challenge**: #90DaysOfDevOps 2025
+=======
+# Devops-2025-90DaysChallenge
+Learn Devops - Train with Shubham
+https://github.com/LondheShubham153/90DaysOfDevOps/tree/master/2025/
+
