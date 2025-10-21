@@ -14,3 +14,6 @@ Basic Git commands, branching, merging, and workflow practices.
 - Git exercises and solutions
 - Practice scenarios
 - Command references
+
+## 📚 Notes & Exercises
+- [Git Basics Notes](git-basics-notes.md)

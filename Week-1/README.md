@@ -8,3 +8,6 @@ Network protocols, configurations, and troubleshooting.
 - IP addressing and subnets
 - Network protocols
 - Basic network troubleshooting
+
+## 📚 Notes & Exercises
+- [Networking Week 1 Notes](Networking/networking-week1-notes.md)

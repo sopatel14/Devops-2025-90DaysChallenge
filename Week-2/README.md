@@ -9,3 +9,6 @@ Linux commands, file system, and system administration.
 - User and permission management
 - Process management
 - Package management
+
+## 📚 Notes & Exercises  
+- [Linux Week 2 Notes](Linux/linux-week2-notes.md)

@@ -16,3 +16,6 @@ Shell scripting exercises and examples for automation.
 - Automation tasks
 - System monitoring scripts
 - Backup and deployment scripts
+
+## 📚 Notes & Exercises
+- [Shell Scripting Notes](shell-scripting-notes.md)
