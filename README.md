@@ -1,4 +1,3 @@
-
 # DevOps 2025 - 90 Days Challenge 🚀
 
 A structured 90-day journey learning DevOps tools and practices, week by week.
@@ -10,7 +9,7 @@ A structured 90-day journey learning DevOps tools and practices, week by week.
 | [Week 1](/Week-1) | Networking Fundamentals | ✅ Completed |
 | [Week 2](/Week-2) | Linux Basics | ✅ Completed |
 | [Week 3](/Week-3) | Git, GitHub & Shell Scripting | ✅ Completed |
-| [Week 4](/Week-4) | [Your Week 4 Topics] | 🔄 In Progress |
+| [Week 4](/Week-4) | Docker & Container Fundamentals | ✅ Completed |
 
 ## 🗂️ Repository Structure
 Devops-2025-90DaysChallenge/
@@ -22,19 +21,38 @@ Devops-2025-90DaysChallenge/
 │ ├── Git-basic-challenge/
 │ ├── GitHub-advance/
 │ └── Shell-Scripting/
-├── Week-4/ # Current week
-└── docs/ # Additional resources
+├── Week-4/ # Docker & Container Fundamentals 🐳
+│ └── Docker/
+│ ├── exercises/ # Practice exercises
+│ ├── notes/ # Additional notes
+│ ├── projects/ # Docker projects
+│ └── notes-solution.md # Complete solutions
+├── docs/ # Additional resources
+└── README.md # This file
 
 text
 
-## 🚀 Getting Started
-Navigate to each week's folder for detailed content and exercises.
+## 🏆 Completed Weeks Summary
 
----
-**Maintained by**: sopatel14  
-**Challenge**: #90DaysOfDevOps 2025
-=======
-# Devops-2025-90DaysChallenge
-Learn Devops - Train with Shubham
-https://github.com/LondheShubham153/90DaysOfDevOps/tree/master/2025/
+### ✅ **Week 1: Networking Fundamentals**
+- Network protocols and models
+- IP addressing and subnets
+- Basic network troubleshooting
 
+### ✅ **Week 2: Linux Basics**
+- Linux file system hierarchy
+- Basic Linux commands and scripting
+- User and permission management
+
+### ✅ **Week 3: Git, GitHub & Shell Scripting**
+- Git commands and workflows
+- GitHub collaboration features
+- Shell scripting fundamentals
+
+### ✅ **Week 4: Docker & Container Fundamentals** 🐳
+- Container concepts and Docker architecture
+- Dockerfile creation and multi-stage builds
+- Image management and Docker Hub integration
+- Container networking and volumes
+- Docker Compose for multi-container apps
+- Security scanning with Docker Scout
