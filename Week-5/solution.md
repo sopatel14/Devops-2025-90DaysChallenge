@@ -160,7 +160,7 @@ The pipeline successfully demonstrated the CI/CD concept, with the test failure 
 
  
 
-Task 2:Multi-Branch Pipeline for Microservices Application
+Task 2: Multi-Branch Pipeline for Microservices Application
 🚀 Implementation Overview
 Project Structure
 
@@ -196,6 +196,7 @@ pipeline {
         }
     }
 }
+
 2. Backend Service Jenkinsfile (flask-backend)
 groovy
 pipeline {
@@ -305,6 +306,7 @@ backend-flask → Points to https://github.com/sopatel14/flask-backend.git
 
 frontend-repo → Points to https://github.com/sopatel14/flask-frontend.git
 
+
 Configured branch sources with Git repository URLs
 
 Set scan triggers to automatically detect new branches
@@ -331,7 +333,9 @@ No item named backend-flask/main found	Jenkins job naming mismatch	Verified exac
 Port conflicts during deployment	Previous containers not cleaned up	Added cleanup commands: `docker stop		true`
 Parallel execution timing	Services starting in wrong order	Used independent deployment with service discovery
 Build resource contention	Multiple Docker builds simultaneously	Implemented resource allocation in production setup
+
 📊 Pipeline Execution Results
+
 Successful Run Output:
 text
 [Pipeline] Start of Pipeline
