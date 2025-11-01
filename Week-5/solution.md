@@ -158,18 +158,7 @@ Incremental Testing: Testing each stage independently helps catch issues early i
 
 The pipeline successfully demonstrated the CI/CD concept, with the test failure highlighting the importance of proper application configuration and container networking setup.
 
-
-<img width="937" height="320" alt="Jenkins Pipeline ss" src="https://github.com/user-attachments/assets/b9fcde9a-9ca1-4b66-ba14-bb66f1433db4" />
-
-<img width="691" height="53" alt="docker ps" src="https://github.com/user-attachments/assets/59a96d08-d05c-4fc8-b371-1b4d512d7824" />
-
-<img width="595" height="243" alt="app deployed on 5000" src="https://github.com/user-attachments/assets/c22806e3-d21a-405b-af97-4b57186e3c6c" />
-
-<img width="371" height="112" alt="app back end" src="https://github.com/user-attachments/assets/cde74352-14ec-4e15-bc6e-15c12893c191" />
-
-
-
-Next Task, 
+ 
 
 Task 2: Multi-Branch Pipeline for Microservices Application
 🚀 Implementation Overview
@@ -481,11 +470,15 @@ Environment Promotion: Add staging and production environment stages
 The multi-branch pipeline approach successfully demonstrated efficient microservice management with parallel execution, independent deployment, and comprehensive branch management capabilities.
 
 
-<img width="943" height="407" alt="jenkins ui ss" src="https://github.com/user-attachments/assets/b0cc3661-1c36-4827-9e18-ff57b2b323a3" /> 
+<img width="937" height="320" alt="Jenkins Pipeline ss" src="https://github.com/user-attachments/assets/b9fcde9a-9ca1-4b66-ba14-bb66f1433db4" />
 
-<img width="481" height="196" alt="app front end" src="https://github.com/user-attachments/assets/6a4a630a-5815-4a3f-a89f-10a49328a85a" />
+<img width="691" height="53" alt="docker ps" src="https://github.com/user-attachments/assets/59a96d08-d05c-4fc8-b371-1b4d512d7824" />
 
-<img width="371" height="112" alt="app back end" src="https://github.com/user-attachments/assets/8235fbb6-fe19-4de8-8671-5f3cb65f7bb8" />
+<img width="595" height="243" alt="app deployed on 5000" src="https://github.com/user-attachments/assets/c22806e3-d21a-405b-af97-4b57186e3c6c" />
+
+<img width="371" height="112" alt="app back end" src="https://github.com/user-attachments/assets/cde74352-14ec-4e15-bc6e-15c12893c191" />
+
+
 
 Task 3: Configure and Scale Jenkins Agents/Nodes
 🧩 Scenario
