@@ -56,6 +56,7 @@ pipeline {
         }
     }
 }
+
 Pipeline Execution Results
 The pipeline execution showed the following stages:
 
