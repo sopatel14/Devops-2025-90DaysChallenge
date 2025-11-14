@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mysql-tolerated
+  namespace: bank-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mysql-tolerated
+  template:
+    metadata:
+      labels:
+        app: mysql-tolerated
+    spec:
+      tolerations:
+      - key: "app"
+        operator: "Equal"
+        value: "mysql"
+        effect: "NoSchedule"
+      - key: "disk"
+        operator: "Equal"
+        value: "ssd"
+        effect: "PreferNoSchedule"
+      nodeSelector:
+        kubernetes.io/hostname: bankapp-worker
+      containers:
+      - name: mysql
+        image: mysql:8.0
+        ports:
+        - containerPort: 3306
+        env:
+        - name: MYSQL_ROOT_PASSWORD
+          value: "test123"
+        - name: MYSQL_DATABASE
+          value: "testdb"

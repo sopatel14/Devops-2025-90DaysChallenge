@@ -1,0 +1,12 @@
+apiVersion: bank.example.com/v1alpha1
+kind: BankApplication
+metadata:
+  name: production-bankapp
+  namespace: bank-app
+spec:
+  appName: "main-banking-application"
+  version: "1.2.0"
+  replicas: 3
+  database:
+    enabled: true
+    type: mysql

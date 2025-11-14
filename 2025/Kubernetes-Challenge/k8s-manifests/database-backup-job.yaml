@@ -1,0 +1,24 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: database-backup
+  namespace: bank-app
+spec:
+  template:
+    spec:
+      containers:
+      - name: backup
+        image: bitnami/mysql:8.0
+        command: ["/bin/sh", "-c"]
+        args:
+          - |
+            echo "Starting database backup at $(date)"
+            mysqldump -h mysql-service -u root -pTest@123 BankDB > /tmp/backup.sql
+            echo "Backup completed. File size: $(wc -c < /tmp/backup.sql) bytes"
+            cat /tmp/backup.sql | head -c 100
+            echo "..."
+        env:
+        - name: MYSQL_PWD
+          value: "Test@123"
+      restartPolicy: Never
+  backoffLimit: 2
