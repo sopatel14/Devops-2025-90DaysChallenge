@@ -42,6 +42,7 @@ All my manifest files are stored in Week 6 k8s
 
 
 
+<img width="908" height="434" alt="image" src="https://github.com/user-attachments/assets/07ebda2e-1ddd-4f84-afac-2f20571aa9ce" />
 
    
    
